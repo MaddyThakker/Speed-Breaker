@@ -23,8 +23,7 @@ rcv = port.read(10)
 print rcv
 time.sleep(1)
 
-#port.write('AT+CMGS="+919711223143"'+'\r')
-port.write('AT+CMGS="+919717828045"'+'\r')
+port.write('AT+CMGS="+91XXXXXXXXXX"'+'\r') # any country code
 rcv = port.read(10)
 print rcv
 time.sleep(1)
